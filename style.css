@@ -1,6 +1,19 @@
 /** inizio common **/
 
+.container{
+    width: 80%;
+    margin: auto;
+}
 
+/* main{
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    width: 80%;
+    margin: auto;
+} */
 
 /* fine common */
 
@@ -18,3 +31,77 @@ header {
 
 
 /* fine header */
+
+
+/*inizio main*/
+.gray {
+    color: gray;
+}
+
+.author{
+    font-size: 18px;
+}
+
+.date{
+    font-size: 12px;
+}
+
+.author-name{
+    color: #20a9e5;
+}
+
+.caption {
+    font-size: 12px;
+}
+
+.content .highlight{
+    background-color: greenyellow;
+}
+
+.content table{
+    text-align: left;
+    border-spacing: 0;
+}
+
+.content table thead{
+    color: #fff;
+    background-color: #20a9e5;
+}
+
+.content table .odd{
+    background-color: #b1e5f2;
+}
+
+.content table th.text{
+    width: 50%;
+}
+
+/* fine sezione main */
+
+/* inizio footer */
+footer h2{
+    font-size: 16px;
+    color: gray;
+}
+
+.image {
+    width: 208px;
+    height: 160px;
+    padding: 10px;
+    margin: 10px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#image-monitor{
+    background-image: url('img/monitor.jpg');
+}
+
+#image-graph{
+    background-image: url('img/graph.jpg');
+}
+
+.image h3 {
+    margin: 0px;
+}
